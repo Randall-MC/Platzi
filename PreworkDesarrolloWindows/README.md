@@ -23,7 +23,6 @@ Editores de texto, editores de código, IDE ( **I**ntegrated **D**evelopment **E
 - *Sintaxis*
 - *Autocompletado*
 - *Depurado*
-
 Cuando estás escribiendo código al final estás escribiendo **texto** pero lo que lo hace diferente del texto plano es la sintaxis y el tipo de archivo.
 
 [_Enlace del curso_](https://platzi.com/clases/prework-windows/) 
