@@ -12,4 +12,6 @@
 - **git reset < hash commit > --soft** - Borra todo el historial y los registros de Git pero se mantienen los cambios que están en Staging Area.
 - **git reset < hash commit > --hard** - Borra toda la información de los commits, incluso lo que haya en Staging Area.
 - **git reset HEAD** - Saca lo que se encuentra en el Staging Area.
-- **git rm < nombre archivo > --cached** -
+- **git rm < nombre archivo > --cached** - Elimina los archivos de nuestro repositorio local y del área de staging pero no de nuestro disco duro.
+- **git rm < nombre de archivo > --force** - ELimina los archivos de GIT y del disco duro.
+- ****
