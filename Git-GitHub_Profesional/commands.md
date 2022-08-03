@@ -4,6 +4,7 @@
 - **git add < nombre del archivo >** - Agrega el archivo a la base de datos de cambios, Git ahora sabe que existe. El o los archivo(s) pasan a *staging*.
 - **git add .** - Agrega todos los archivos que hayan cambiado de la carpeta de la que estés.
 - **git commit -m "< mensaje >"** - Envía los últimos cambios del archivo a la base de datos del sistema de control de versiones.
+- **git commit -am < mensaje >** - Es la combinación de git add y git commit. Agrega todos los cambios y solo se puede hacer con archivos a los que Git les de seguimiento.
 - **git status** - Muestra el estado de tu base de datos.
 - **git show** - Muestra todos los cambios históricos hechos, incluyendo las líneas de código o texto o las lineas de otros archivos y quién las hizo.
 - **git log < nombre archivo >** - Ver la historia de un archivo.
@@ -14,4 +15,7 @@
 - **git reset HEAD** - Saca lo que se encuentra en el Staging Area.
 - **git rm < nombre archivo > --cached** - Elimina los archivos de nuestro repositorio local y del área de staging pero no de nuestro disco duro.
 - **git rm < nombre de archivo > --force** - ELimina los archivos de GIT y del disco duro.
-- ****
+- **git branch < nombre rama >** - Crea una rama.
+- **git checkout < nombre rama >** - Cambia a la rama indicada.
+- **git checkout -b < nombre rama >** - Es la combinación de git branch y git checkout.
+- 
