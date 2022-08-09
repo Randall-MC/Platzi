@@ -18,4 +18,4 @@
 - **git branch < nombre rama >** - Crea una rama.
 - **git checkout < nombre rama >** - Cambia a la rama indicada.
 - **git checkout -b < nombre rama >** - Es la combinación de git branch y git checkout.
-- 
+- **git merge < nombre rama >** - Une los cambios de la rama a la que se apunta hacia a donde estamos.
