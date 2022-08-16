@@ -21,4 +21,8 @@ Git es un sistema de control de versiones (es el más popular) que fue creado po
 
 Cuando se crea una rama, lo que se hace es crear una copia del último commit en otro lado por lo que los cambios que hagamos no se verán en la rama de dónde partimos.
 
+## README.md
+
+Es un archivo **markdown** y es el que veremos por defecto al entrar a un repositorio. Es una muy buena practica configurarlo para describir el proyecto, los requerimientos y las instrucciones que debemos seguir para contribuir correctamente.
+
 ---

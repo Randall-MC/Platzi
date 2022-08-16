@@ -19,3 +19,8 @@
 - **git checkout < nombre rama >** - Cambia a la rama indicada.
 - **git checkout -b < nombre rama >** - Es la combinación de git branch y git checkout.
 - **git merge < nombre rama >** - Une los cambios de la rama a la que se apunta hacia a donde estamos.
+- **git merge --abort** - Cancelar un merge.
+- **git remote add origin < url >** - Agregar un origen remoto.
+- **git remote -v** - Muestra los repositorios agregados.
+- **git fetch** - Descarga los objetos y referencias del repositorio.
+- **git pull** - Combinación de los comandos git fetch y merge (en ese orden).
