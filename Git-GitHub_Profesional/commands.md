@@ -24,3 +24,4 @@
 - **git remote -v** - Muestra los repositorios agregados.
 - **git fetch** - Descarga los objetos y referencias del repositorio.
 - **git pull** - Combinación de los comandos git fetch y merge (en ese orden).
+- **git push origin < nombre rama >** - Envía el contenido de la rama indicada al repositorio remoto.
