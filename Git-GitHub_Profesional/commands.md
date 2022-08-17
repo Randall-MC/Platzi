@@ -23,5 +23,5 @@
 - **git remote add origin < url >** - Agregar un origen remoto.
 - **git remote -v** - Muestra los repositorios agregados.
 - **git fetch** - Descarga los objetos y referencias del repositorio.
-- **git pull** - Combinación de los comandos git fetch y merge (en ese orden).
 - **git push origin < nombre rama >** - Envía el contenido de la rama indicada al repositorio remoto.
+- **git pull origin master** - Combinación de los comandos git fetch y merge (en ese orden). Trae los cambios que existan en el repositorio remoto.
