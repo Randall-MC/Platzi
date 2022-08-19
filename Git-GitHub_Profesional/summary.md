@@ -25,4 +25,15 @@ Cuando se crea una rama, lo que se hace es crear una copia del último commit en
 
 Es un archivo **markdown** y es el que veremos por defecto al entrar a un repositorio. Es una muy buena practica configurarlo para describir el proyecto, los requerimientos y las instrucciones que debemos seguir para contribuir correctamente.
 
+## Cifrado asimétrico
+
+Requiere de una clave pública y una clave privada. La clave pública si utiliza para cifrar los datos y la clave privada si utiliza para descifrar los datos. Esto funciona para mandar mensajes privados entre varios nodos con la lógica de que firmas tu mensaje con una llave pública vinculada con una llave privada que puede leer el mensaje.
+
+### ¿Cómo funciona?
+
+- Ambas partes crean sus llaves públicas y privadas.
+- Ambos pueden compartir sus llaves públicas.
+- El emisor usa la llave pública de la otra parte para cifrar el mensaje.
+- El receptor usa su llave privada para descifrar el mensaje.
+
 ---

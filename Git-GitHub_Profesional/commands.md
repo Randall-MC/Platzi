@@ -25,3 +25,4 @@
 - **git fetch** - Descarga los objetos y referencias del repositorio.
 - **git push origin < nombre rama >** - Envía el contenido de la rama indicada al repositorio remoto.
 - **git pull origin master** - Combinación de los comandos git fetch y merge (en ese orden). Trae los cambios que existan en el repositorio remoto.
+- **git pull origin master --allow-unrelated-histories** - Permite fusionar un remoto con diferentes commits.
