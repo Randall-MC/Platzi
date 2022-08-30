@@ -26,3 +26,14 @@
 - **git push origin < nombre rama >** - Envía el contenido de la rama indicada al repositorio remoto.
 - **git pull origin master** - Combinación de los comandos git fetch y merge (en ese orden). Trae los cambios que existan en el repositorio remoto.
 - **git pull origin master --allow-unrelated-histories** - Permite fusionar un remoto con diferentes commits.
+- **git config alias.< nombre alias > " < opciones > "** - Agrega un alias a la configuración de un proyecto (tu entorno local)
+- **git config --global alias.< nombre alias > " < opciones > "** - Agrega un alias a la configuración global.
+- **git tag -a < nombre tag > -m < mensaje > < hash commit >** - Agrega una etiqueta al commit especificado.
+- **git tag** - Muestra una lista de todos los tags.
+- **git show-ref --tags** - Muestra los tags con sus referencias.
+- **git push origin --tags** - Envía los tags creados en el repositorio local al repositorio remoto.
+- **git tag -d < nombre tag >** - Elimina un tag del repositorio local.
+- **git push origin :refs/tags/< nombre tag >** - Borra la referencia del origen conectada con la referencia de cuando se elimina un tag localmente.
+- **git show-branch** - Muestra la historia de todas las ramas.
+- **git show-branch -all** - Muestra la historia de todas las ramas, incluyendo la historia del origin.
+- **gitk** - Abre una ventana que muestra gráficamente lo que hacemos en Git.
