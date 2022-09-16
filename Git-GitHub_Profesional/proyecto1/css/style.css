@@ -41,3 +41,11 @@ body {
     background-color: #fff;
     padding: 2em;
 }
+
+#footer {
+    background-color: #fff;
+    color: #fff;
+    background-color: #338033;
+    padding: 1rem;
+    text-align: center;
+}
