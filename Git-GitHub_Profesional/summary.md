@@ -37,3 +37,20 @@ Requiere de una clave pública y una clave privada. La clave pública si utiliza
 - El receptor usa su llave privada para descifrar el mensaje.
 
 ---
+
+## Cómo traer una rama a tu repositorio local
+
+Para traer una rama que no es la rama **main** o **master** a tu repositorio local ejecuta las siguientes comandos...
+
+~~~
+git fetch origin < nombre de la rama >
+~~~
+
+Esto va a traer los datos que haya en dicha rama y para colocar datos en una rama con el mismo nombre ejecutas...
+
+~~~
+git checkout < nombre de la rama >
+~~~
+
+---
+

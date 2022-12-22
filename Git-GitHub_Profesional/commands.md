@@ -16,6 +16,8 @@
 - **git rm < nombre archivo > --cached** - Elimina los archivos de nuestro repositorio local y del área de staging pero no de nuestro disco duro.
 - **git rm < nombre de archivo > --force** - ELimina los archivos de GIT y del disco duro.
 - **git branch < nombre rama >** - Crea una rama.
+- **git branch -d < nombre rama >** - Borrar una rama que ya haya sido fusionada.
+- **git branch -D < nombre rama >** - Forzar la eliminación de una rama, aunque no se haya fusionado aún.
 - **git checkout < nombre rama >** - Cambia a la rama indicada.
 - **git checkout -b < nombre rama >** - Es la combinación de git branch y git checkout.
 - **git merge < nombre rama >** - Une los cambios de la rama a la que se apunta hacia a donde estamos.
@@ -38,4 +40,4 @@
 - **git show-branch -all** - Muestra la historia de todas las ramas, incluyendo la historia del origin.
 - **gitk** - Abre una ventana que muestra gráficamente lo que hacemos en Git.
 - **git clone < URL repositorio >** - Clona un repositorio.
-- ****
+
