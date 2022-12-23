@@ -40,4 +40,3 @@
 - **git show-branch -all** - Muestra la historia de todas las ramas, incluyendo la historia del origin.
 - **gitk** - Abre una ventana que muestra gráficamente lo que hacemos en Git.
 - **git clone < URL repositorio >** - Clona un repositorio.
-

@@ -42,15 +42,14 @@ Requiere de una clave pública y una clave privada. La clave pública si utiliza
 
 Para traer una rama que no es la rama **main** o **master** a tu repositorio local ejecuta las siguientes comandos...
 
-~~~
+~~~bash
 git fetch origin < nombre de la rama >
 ~~~
 
 Esto va a traer los datos que haya en dicha rama y para colocar datos en una rama con el mismo nombre ejecutas...
 
-~~~
+~~~bash
 git checkout < nombre de la rama >
 ~~~
 
 ---
-
