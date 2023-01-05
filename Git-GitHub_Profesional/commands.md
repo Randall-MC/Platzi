@@ -40,3 +40,16 @@
 - **git show-branch -all** - Muestra la historia de todas las ramas, incluyendo la historia del origin.
 - **gitk** - Abre una ventana que muestra gráficamente lo que hacemos en Git.
 - **git clone < URL repositorio >** - Clona un repositorio.
+- **git rebase < nombre rama >** - Mueve o combina una secuencia de confirmaciones en una nueva confirmación base.
+- **git stash** - Guarda los cambios hechos en un lugar temporal y te regresa al commit donde esté apuntando el HEAD.
+- **git stash list** - Muestra los *stash*.
+- **git stash pop** - Saca el último *stash*.
+- **git stash branch < nombre nueva rama >** - Manda los cambios dentro del último stash en una nueva rama.
+- **git stash drop** - Elimina el último stash.
+- **git clean --dry-run** Simula todo lo que se puede borrar sin que lo haga.
+- **git clean -f** Elimina todo lo que git no le esté haciendo seguimiento. Git clean solo puede borrar aquello que puede indexar.
+- **git cherry-pick < hash del commit >** Permite tomar uno o varios commits de otra rama y fusionarlos con la rama actual.
+- **git reflog** Muestra la historia completa.
+- **git reset --SOFT < hash >** Regresa a la historia del commit indicado y mantiene los cambios que se encuentren en staging.
+- **git reset --HARD < hash >** Regresa a la historia del commit indicado.
+- **git commit --amend** Une los últimos cambios agregados al staging area con el último commit.
