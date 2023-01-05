@@ -53,3 +53,10 @@
 - **git reset --SOFT < hash >** Regresa a la historia del commit indicado y mantiene los cambios que se encuentren en staging.
 - **git reset --HARD < hash >** Regresa a la historia del commit indicado.
 - **git commit --amend** Une los últimos cambios agregados al staging area con el último commit.
+- **git grep < palabra clave >** Busca dentro del proyecto y muestra en qué archivo se ha utilizado la palabra.
+- **git grep -n < palabra clave >** Busca dentro del proyecto y muestra en qué archivo y cuál linea se ha utilizado la palabra.
+- **git grep -c < palabra clave >** Busca dentro del proyecto y muestra cuántas veces se repite una palabra y en qué archivo.
+- **git grep -c < "palabra clave" >** Busca dentro del proyecto y muestra cuántas veces se repite un código y en qué archivo.
+- **git log -S "palabra clave"** Busca dentro de la historia del proyecto y muestra los commits donde aparece la palabra.
+
+---
