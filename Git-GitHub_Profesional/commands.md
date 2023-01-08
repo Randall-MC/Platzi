@@ -1,0 +1,62 @@
+# Commands for Git
+
+- **git init** - Inicializa en la carpeta un repositorio, la base de datos de cambios de cualquier archivo.
+- **git add < nombre del archivo >** - Agrega el archivo a la base de datos de cambios, Git ahora sabe que existe. El o los archivo(s) pasan a *staging*.
+- **git add .** - Agrega todos los archivos que hayan cambiado de la carpeta de la que estés.
+- **git commit -m "< mensaje >"** - Envía los últimos cambios del archivo a la base de datos del sistema de control de versiones.
+- **git commit -am < mensaje >** - Es la combinación de git add y git commit. Agrega todos los cambios y solo se puede hacer con archivos a los que Git les de seguimiento.
+- **git status** - Muestra el estado de tu base de datos.
+- **git show** - Muestra todos los cambios históricos hechos, incluyendo las líneas de código o texto o las lineas de otros archivos y quién las hizo.
+- **git log < nombre archivo >** - Ver la historia de un archivo.
+- **git log --stat** - Muestra el log con los cambios específicos hechos en cada archivo.
+- **git checkout < hash commit / rama > < nombre de archivo >** - Regresa un archivo a la versión indicada.
+- **git reset < hash commit > --soft** - Borra todo el historial y los registros de Git pero se mantienen los cambios que están en Staging Area.
+- **git reset < hash commit > --hard** - Borra toda la información de los commits, incluso lo que haya en Staging Area.
+- **git reset HEAD** - Saca lo que se encuentra en el Staging Area.
+- **git rm < nombre archivo > --cached** - Elimina los archivos de nuestro repositorio local y del área de staging pero no de nuestro disco duro.
+- **git rm < nombre de archivo > --force** - ELimina los archivos de GIT y del disco duro.
+- **git branch < nombre rama >** - Crea una rama.
+- **git branch -d < nombre rama >** - Borrar una rama que ya haya sido fusionada.
+- **git branch -D < nombre rama >** - Forzar la eliminación de una rama, aunque no se haya fusionado aún.
+- **git checkout < nombre rama >** - Cambia a la rama indicada.
+- **git checkout -b < nombre rama >** - Es la combinación de git branch y git checkout.
+- **git merge < nombre rama >** - Une los cambios de la rama a la que se apunta hacia a donde estamos.
+- **git merge --abort** - Cancelar un merge.
+- **git remote add origin < url >** - Agregar un origen remoto.
+- **git remote -v** - Muestra los repositorios agregados.
+- **git fetch** - Descarga los objetos y referencias del repositorio.
+- **git push origin < nombre rama >** - Envía el contenido de la rama indicada al repositorio remoto.
+- **git pull origin master** - Combinación de los comandos git fetch y merge (en ese orden). Trae los cambios que existan en el repositorio remoto.
+- **git pull origin master --allow-unrelated-histories** - Permite fusionar un remoto con diferentes commits.
+- **git config alias.< nombre alias > " < opciones > "** - Agrega un alias a la configuración de un proyecto (tu entorno local)
+- **git config --global alias.< nombre alias > " < opciones > "** - Agrega un alias a la configuración global.
+- **git tag -a < nombre tag > -m < mensaje > < hash commit >** - Agrega una etiqueta al commit especificado.
+- **git tag** - Muestra una lista de todos los tags.
+- **git show-ref --tags** - Muestra los tags con sus referencias.
+- **git push origin --tags** - Envía los tags creados en el repositorio local al repositorio remoto.
+- **git tag -d < nombre tag >** - Elimina un tag del repositorio local.
+- **git push origin :refs/tags/< nombre tag >** - Borra la referencia del origen conectada con la referencia de cuando se elimina un tag localmente.
+- **git show-branch** - Muestra la historia de todas las ramas.
+- **git show-branch -all** - Muestra la historia de todas las ramas, incluyendo la historia del origin.
+- **gitk** - Abre una ventana que muestra gráficamente lo que hacemos en Git.
+- **git clone < URL repositorio >** - Clona un repositorio.
+- **git rebase < nombre rama >** - Mueve o combina una secuencia de confirmaciones en una nueva confirmación base.
+- **git stash** - Guarda los cambios hechos en un lugar temporal y te regresa al commit donde esté apuntando el HEAD.
+- **git stash list** - Muestra los *stash*.
+- **git stash pop** - Saca el último *stash*.
+- **git stash branch < nombre nueva rama >** - Manda los cambios dentro del último stash en una nueva rama.
+- **git stash drop** - Elimina el último stash.
+- **git clean --dry-run** Simula todo lo que se puede borrar sin que lo haga.
+- **git clean -f** Elimina todo lo que git no le esté haciendo seguimiento. Git clean solo puede borrar aquello que puede indexar.
+- **git cherry-pick < hash del commit >** Permite tomar uno o varios commits de otra rama y fusionarlos con la rama actual.
+- **git reflog** Muestra la historia completa.
+- **git reset --SOFT < hash >** Regresa a la historia del commit indicado y mantiene los cambios que se encuentren en staging.
+- **git reset --HARD < hash >** Regresa a la historia del commit indicado.
+- **git commit --amend** Une los últimos cambios agregados al staging area con el último commit.
+- **git grep < palabra clave >** Busca dentro del proyecto y muestra en qué archivo se ha utilizado la palabra.
+- **git grep -n < palabra clave >** Busca dentro del proyecto y muestra en qué archivo y cuál linea se ha utilizado la palabra.
+- **git grep -c < palabra clave >** Busca dentro del proyecto y muestra cuántas veces se repite una palabra y en qué archivo.
+- **git grep -c < "palabra clave" >** Busca dentro del proyecto y muestra cuántas veces se repite un código y en qué archivo.
+- **git log -S "palabra clave"** Busca dentro de la historia del proyecto y muestra los commits donde aparece la palabra.
+
+---

@@ -1,0 +1,55 @@
+body {
+    background-color: #333;
+    box-sizing: border-box;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    margin: 0;
+}
+
+#container {
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#cabecera {
+    background: #33a;
+    box-shadow: 1px 6px 5px 0px rgba(0,0,0,0.6);
+    color: #fff;
+    font-weight: bold;
+    padding: 1em;
+}
+
+#cabecera > img {
+    width: 2em;
+    vertical-align: middle;
+    margin-right: 1em;
+}
+
+#cabecera  #tagline {
+    font-weight: normal;
+    font-size: 0.9em;
+    padding-left: 1em;
+}
+
+#container h1 {
+    font-size: 1.5em;
+}
+
+#post {
+    background-color: #fff;
+    padding: 2em;
+}
+
+#footer {
+    background-color: #fff;
+    color: #fff;
+    background-color: #338033;
+    padding: 1rem;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
