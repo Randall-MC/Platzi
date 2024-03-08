@@ -3,81 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-
-    <style>
-        /* Basic selectors
-        /* Type selector */
-        section {
-            background: pink;
-        }
-        /* Class selector */
-        .title {
-            color: blueviolet
-        }
-        /* ID selector */
-        #strong {
-            font-weight: bolder;
-        }
-        /* Attribute selector */
-        a[href="#"] {
-            color: yellowgreen;
-        }
-
-        body {
-            background: papayawhip;
-        }
-
-        .test-hover {
-            color: salmon;
-        }
-
-        .test-hover:hover {
-            color: skyblue;
-        }
-
-        .test-child p:nth-child(2){
-            color: violet;
-        }
-
-        .test-child p::first-letter {
-            font-weight: bolder;
-            color: teal;
-        }
-
-        .test-child p::after {
-            content: "😊";
-        }
-
-        ::placeholder {
-            color: tomato;
-        }
-
-        .display > div {
-            background-color: aquamarine;
-            width: 300px;
-            height: 100px;
-            margin: 10px;
-            padding: 10px;
-        }
-
-        .display > a {
-            background-color: darkolivegreen;
-            width: 300px;
-            height: 100px;
-            margin: 10px;
-            padding: 10px;
-        }
-
-        .display > button {
-            background-color: yellowgreen;
-            width: 300px;
-            height: 100px;
-            margin: 10px;
-            padding: 10px;
-        }
-    </style>
-
 </head>
 <body>
     <nav>
@@ -109,7 +36,7 @@
 
         <div class="test-child">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloribus error perferendis quaerat voluptas odio impedit mollitia rem. Explicabo sunt corporis earum cupiditate libero accusantium molestias, reiciendis voluptate non numquam.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque non magni deserunt harum qui impedit, temporibus, sunt necessitatibus molestiae inventore, accusantium quis facilis pariatur explicabo ad voluptate? Quos, amet quo?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloribus error perferendis quaerat voluptas odio impedit mollitia rem. Explicabo sunt corporis earum cupiditate libero accusantium molestias, reiciendis voluptate non numquam.</p>
         </div>
     </section>
 
@@ -119,5 +46,32 @@
         <a href="#">La etiqueta <span>a</span> es un elemento de tipo<span>inline</span></a>
         <button>La etiqueta <span>button</span> es un elemento de tipo <span>inline-block</span></button>
     </div>
+
+    <h3>Flexbox</h3>
+    <div class="flex-container">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+
+    <h3>Grid</h3>
+    <div class="grid-container">
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+    </div>
+
+    <div class="modelo-caja">
+        <h3>Modelo de caja</h3>
+        <div>Box</div>
+        <div>Model</div>
+    </div>
+
+    <section class="posicionamiento">
+        <h3>Posicionamiento</h3>
+        <div class="p-item"></div>
+    </section>
 </body>
 </html>

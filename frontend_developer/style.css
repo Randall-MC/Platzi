@@ -1,0 +1,144 @@
+.title {
+    position: fixed;
+    top: 0;
+    color: blueviolet;
+}
+/* ID selector */
+#strong {
+    font-weight: bolder;
+}
+/* Attribute selector */
+a[href="#"] {
+    color: yellowgreen;
+}
+
+body {
+    background: papayawhip;
+}
+
+.test-hover {
+    color: salmon;
+}
+
+.test-hover:hover {
+    color: skyblue;
+}
+
+.test-child p:nth-child(1){
+    color: violet;
+}
+
+.test-child p::first-letter {
+    font-weight: bolder;
+    color: teal;
+}
+
+.test-child p::after {
+    content: "😊";
+}
+
+::placeholder {
+    color: tomato;
+}
+
+.display > div {
+    background-color: aquamarine;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.display > a {
+    background-color: darkolivegreen;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.display > button {
+    background-color: yellowgreen;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    background: peachpuff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+.flex-item {
+    width: 30px;
+    height: 30px;
+    background: purple;
+}
+
+.container .item:nth-child(2n + 1) {
+    background: cyan;
+}
+
+.grid-container {
+    display: grid;
+    width: 400px;
+    height: 400px;
+    background: lawngreen;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.grid-item {
+    background: cadetblue;
+}
+
+.grid-container .grid-item:nth-child(1) {
+    grid-column: 1 / 2;
+}
+
+.grid-container .grid-item:nth-child(2) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.grid-container .grid-item:nth-child(3) {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.grid-container .grid-item:nth-child(4
+) {
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+.modelo-caja > div {
+    width: 100px;
+    height: 100px;
+    background: salmon;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid hotpink;
+    margin: 10px;
+}
+
+.posicionamiento {
+    width: 200px;
+    height: 200px;
+    background-color: peachpuff;
+    position: relative;
+    top: 20px;
+}
+
+.p-item {
+    width: 20px;
+    height: 20px;
+    background: hotpink;
+    position: absolute;
+    right: 0;
+}
