@@ -149,7 +149,7 @@ p ~ span {
 En [este enlace](https://specificity.keegan.st/) podrás calcular la especificidad de los selectores en CSS.
 
 El posicionamiento en CSS es una de las cosas más importantes. CSS cuenta con herramientas como Flexbox y Grid para que esa tarea sea más fácil. Por lo que dejaré una guía de cada uno.  
-[Guía Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+[Guía Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
 [Guía Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 [En este enlace](https://cssreference.io/) puedes revisar una guía con las propiedades que puedes usar en CSS.

@@ -1,0 +1,125 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+header>h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    color: DarkKhaki;
+}
+
+header>p {
+    font-size: 1.3em;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    margin: 60px auto;
+
+    border: 1px solid Gainsboro;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+
+    position: relative;
+}
+
+.card-background {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+    background: LightGray;
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+    position: absolute;
+    top: 125px;
+    left: 125px;
+}
+
+.card-info {
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.card-bottom-item>i {
+    margin-right: 5px;
+}
