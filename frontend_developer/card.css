@@ -112,6 +112,26 @@ header>p {
     margin-top: 80px;
 }
 
+.card-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.button {
+    display: inline-block;
+    background-color: MediumSeaGreen;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background 1s;
+}
+
+.button:hover {
+    background: darkgreen;
+}
+
 .card-bottom {
     display: flex;
     justify-content: space-between;
